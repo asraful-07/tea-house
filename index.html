@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Whisper&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
     <!-- main section code -->
@@ -162,7 +163,7 @@
       </section>
 
       <!-- Meet Super Clients section code-->
-      <section>
+      <section class="mb-24">
         <div
           class="grid grid-cols-2  py-20 lg:px-16 bg-gradient-to-r from-orange-500 to-red-500"
         >
@@ -234,5 +235,66 @@
         </div>
       </section>
     </main>
+
+    <!-- footer section code -->
+     <footer class="bg-orange-100 text-gray-500 py-10 px-4 md:px-16">
+       <div class="max-w-screen-xl mx-auto">
+        <div class="flex justify-between mb-8">
+          <img src="images/cup.png" alt="">
+          <div class="flex items-center gap-4">
+            <h4 class="">Ready to get strated?</h4>
+            <button class="px-4 py-3 text-white rounded-lg bg-gradient-to-r from-orange-500 to-red-500 ">Get Started</button>
+          </div>
+        </div>
+
+       <!-- footer in section code -->
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div>
+            <h3 class="font-semibold text-xl mb-3 text-black">Quick Links</h3>
+            <ul class="space-y-2">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Insurance</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-xl mb-3 text-black">Our Service</h3>
+            <ul class="space-y-2">
+              <li><a href="#">Life Insurance</a></li>
+              <li><a href="#">Car Insurance</a></li>
+              <li><a href="#">Health Insurance</a></li>
+              <li><a href="#">House Insurance</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-xl mb-3 text-black">Help</h3>
+            <ul class="space-y-2">
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-xl mb-3 text-black">Subscribe to our newsletter</h3>
+             <div>
+              <input type="text" placeholder="Email address"
+              class="bg-transparent border-b-2 w-5/6 md:w-5/6 border-black">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-7 w-7 text-white inline bg-gradient-to-r from-orange-500 to-red-500  rounded-full">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+               <div class="flex justify-between mb-2 mt-8 w-2/5">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+               </div>
+             </div>
+          </div>
+        </div> 
+        <div>
+          <h3 class="text-sm text-black text-center my-10">© 2027 UIDesign.to - All rights reserved.</h3>
+        </div>
+      </div>
+     </footer>
   </body>
 </html>
